@@ -1,0 +1,151 @@
+html { direction: rtl; }
+body { direction: rtl; }
+th { text-align: right; }
+.comment .title {
+	padding: 10px 19px 12px 0;
+	background: transparent url(../images/all/icon-comment_rtl.png) right center no-repeat !important;
+}
+.comment .new, .by { float: left; }
+.node .user-picture, .comment .user-picture {
+	float: left;
+	padding: 0 .5em .5em 0;
+}
+.logoimg { float: right; }
+#top-elements {
+	float: left;
+	text-align: left;
+}
+.divider {
+	border-left: none !important;
+	border-right: 1px dashed #ddd;
+}
+#breadcrumb { padding-right: 20px; }
+#forum td.container { background: #cdcdcd url(../images/all/forum-container_rtl.jpg) left top no-repeat !important; }
+#forum td.container .name a {
+	padding: 10px 40px 10px 0;
+	background: transparent url(../images/all/forum-link_rtl.png) right center no-repeat !important;
+}
+.field-item img {
+	float: right;
+	margin: 0 0 10px 0;
+}
+#continue-shopping-button { margin-left: 50% !important; }
+html.js fieldset.collapsible .fieldset-legend { padding-right: 22px; }
+
+/* HEADER IMAGE ROTATOR */
+.himg #headimg { background: #fff url(../_custom/headerimg-rtl/rotate.php) no-repeat 0% 100%; }
+
+/* MENU & link STYLES */
+ul li.collapsed { list-style-image: url(../images/all/menu-collapsed_rtl.png) !important; }
+ul.links li {
+	border-left: none !important;
+	border-right: 1px solid #d3d3d3;
+}
+.pure-menu-heading { float: right; }
+.menu-toggle { float: left; }
+.menu-toggle .bars { right: .5em; }
+.pure-menu-children { box-shadow: none; }
+.pure-menu-children .pure-menu-children {
+	left: auto;
+	right: 100%;
+}
+.pure-menu-has-children > .pure-menu-link:after {
+	margin: 0 0 0 -1em !important;
+	padding-left: 0;
+	padding-right: 0.5em;
+}
+.pure-menu-has-children .pure-menu-has-children > .pure-menu-link:after { content: "\25C2"; }
+
+
+/* ROUNDED CORNERS */
+.rnd .pure-paginator .first .pure-button { border-radius: 0px 6px 6px 0px; }
+.rnd .pure-paginator .last .pure-button { border-radius: 6px 0px 0px 6px; }
+
+
+/* BLOCK ICONS */
+
+.bi32 .block-icon { margin: -5px -5px 0 0; }
+.bi48 .block-icon { margin: -15px -18px 0 0; }
+.bi32 .themed-block .title, .bi48 .themed-block .title {
+	text-align: left;
+	padding: 6px 28px 6px 6px;
+}
+
+
+/* PAGE ICONS */
+
+.links ul.links a { padding-left: 5px; }
+.pi .upload_attachments a {
+	background: url(../images/all/icons/attach.png) no-repeat right;
+	padding-right: 20px;
+}
+.pi .comment-comments a {
+	background: url(../images/all/icons/comments.png) no-repeat right;
+	padding-right: 20px;
+}
+.pi li.comment-delete a {
+	background: url(../images/all/icons/trash.png) no-repeat right;
+	padding-right: 15px;
+}
+.pi li.comment-edit a {
+	background: url(../images/all/icons/edit.png) no-repeat right;
+	padding-right: 15px;
+}
+.pi li.comment-reply a {
+	background: url(../images/all/icons/reply.png) no-repeat right;
+	padding-right: 15px;
+}
+.pi .book_add_child a {
+	background: url(../images/all/icons/page-add.png) no-repeat right center;
+	padding-right: 20px;
+}
+.pi .comment-add a {
+	background: url(../images/all/icons/comment.png) no-repeat right center;
+	padding-right: 20px;
+}
+.pi .print_html a, .pi .book_printer a {
+	background: url(../images/all/icons/print.png) no-repeat right center;
+	padding-right: 20px;
+}
+.pi .print_mail a, .pi .book_mail a {
+	background: url(../images/all/icons/mail.png) no-repeat right center;
+	padding-right: 20px;
+}
+.pi .print_pdf a, .pi .book_pdf a {
+	background: url(../images/all/icons/pdf.png) no-repeat right center;
+	padding-right: 20px;
+}
+.pi .print_html, .pi .book_printer,
+.pi .print_mail, .pi .book_mail,
+.pi .print_pdf, .pi .book_pdf {
+	padding-left: 0;
+}
+.pi .field-type-taxonomy-term-reference {
+	background: url(../images/all/icons/tag.png) no-repeat right top;
+	padding-right: 20px;
+}
+.pi #sidebar-left a.active, .pi #sidebar-right a.active {
+	background: url(../images/all/icons/check_rtl.png) no-repeat left center;
+	padding-left: 20px !important;
+	padding-right: 0;
+}
+.pi .node-readmore a {
+	background: url(../images/all/icons/read_more_rtl.png) no-repeat right center;
+	padding-right: 15px;
+}
+.pi .more-link a {
+	background: url(../images/all/icons/more.png) no-repeat right center;
+	padding-right: 15px;
+}
+.pi .blog_usernames_blog a {
+	background: url(../images/all/icons/user_green.png) no-repeat right center;
+	padding-right: 20px;
+}
+
+
+@media screen and (max-width: 48em) {
+	.logomob {
+		float: right;
+		margin: -0.4em 0 0 .5em;
+	}
+}
